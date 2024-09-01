@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-style: normal;
+    background-color: #0c0c0e;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #0c0c0e;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fffbfb;
+    
+
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header ul a{
+    font-size: large;
+    color: #fffbfb;
+    text-decoration: none;
+    margin: 8px 10px 8px 10px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    margin: 0%;
+    align-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: #0c0c0e;
+    margin: 0%;
+}
+#carouselExampleIndicators {
+    padding: 10px;
+
+}
+
+.imagenes2 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.divisor {
+    text-align: center;
+    align-items: center;
+    color: #fffbfb;
+
+}
+
+.divisor h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cc7626;
+    height: 60px;
+    margin-top: 10px;
+
+}
+
+#exposicioncontenido {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    color: #fffbfb;
+    text-align: center;
+    
+}
+
+#exposicioncontenido img {
+    width: 180px;
+    height: 170px;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+
+}
+
+#exposicioncontenido h4 {
+    height: 50px;
+    margin: 20px 5px 10px 5px;
+}
+
+#exposicioncontenido p {
+    margin: 10px;
+
+}
+
+#info{
+    text-align: center;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+#info h4{
+    font-weight: 700;
+    color: #0c0c0e;
+    margin: 10px;
+    margin-top: 20px;
+}
+#info h6{
+    font-weight: 600;
+    color: #0c0c0e;
+}
+#info p{
+    font-size: 12px;
+    color: #696969;
+}
+
+#costos{
+    display: flex;
+    flex-direction: row;
+}
+
+#experiencia h4{
+    font-weight: 700;
+    color: #fffbfb;
+    margin: 10px;
+    text-align: center;
+}
+
+#experiencia{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fffbfb;
+}
+.btn.btn-primary{
+color: #0c0c0e;
+background-color: #fcb132;
+border: #fcb132;
+}
+
+footer {
+    display: flex;
+    background-color: #c0a008;
+    width: 100%;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    text-align: center;
+}
+
+footer a {
+    color: #0c0c0e;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 8px 20px 8px 20px;
+}
+
+footer p {
+    font-size: 12px;
+    color: #696969;
+    text-align: start;
+}
+footer img{
+    width: 100%;
+    text-align: center;
+}
+#cierre{
+    display: flex;
+    flex-direction: column;
+}
+
+#insta{
+    background-color: #0c0f14;
+}
+#somos{
+    padding: 20px;
+    color: #fffbfb;
+}
+#somos h1{
+    font-weight: bold;
+    color: #fcb132;
+    margin: 10px;
+}
+#contacto{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    height: 35%;
+    
+}
+#contacto h5{
+    font-weight: 700;
+    margin: 10px;
+}
+#contacto img{
+    margin: 25px;
+}
